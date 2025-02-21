@@ -27,9 +27,9 @@
 
             bindings = <
 &kp TAB         &kp Q  &kp W  &kp E      &kp R     &kp T        &kp Y      &kp U  &kp I          &kp O    &kp P     &kp BSPC
-&kp CAPSLOCK    &kp A  &kp S  &kp D      &kp F     &kp G        &kp H      &kp J  &kp K          &kp L    &kp SEMI  &kp APOS
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C      &kp V     &kp B        &kp N      &kp M  &kp COMMA      &kp DOT  &kp FSLH  &mo 2
-                              &kp LCTRL  &kp LGUI  &kp ENTER    &kp SPACE  &mo 1  &kp RIGHT_ALT
+&kp CAPSLOCK    &kp A  &kp S  &kp D      &kp F     &kp G        &kp H      &kp J  &kp K          &kp L    &kp SEMI  &kp ENTER
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C      &kp V     &kp B        &kp N      &kp M  &kp COMMA      &kp DOT  &kp FSLH  &kp APOS
+                              &kp LCTRL  &kp LGUI  &kp SPACE    &kp SPACE  &mo 1  &kp RIGHT_ALT
             >;
         };
 
@@ -56,10 +56,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans     &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS  &kp ASTRK     &kp LPAR         &kp RPAR    &kp BSPC
-&trans     &trans    &trans  &trans    &trans    &trans       &trans     &trans    &kp LBKT      &kp RBKT         &kp BSLH    &trans
-&kp LSHFT  &trans    &trans  &trans    &trans    &trans       &trans     &trans    &kp C_VOL_DN  &kp C_VOLUME_UP  &kp K_MUTE  &trans
-                             &trans    &trans    &trans       &trans     &trans    &trans
+&trans     &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SLASH     &kp BSPC
+&trans     &trans    &trans  &trans    &trans    &trans       &trans  &trans  &kp K_MUTE        &kp C_VOL_DN       &kp C_VOL_UP  &trans
+&kp LSHFT  &trans    &trans  &trans    &trans    &trans       &trans  &trans  &trans            &trans             &trans        &trans
+                             &trans    &trans    &trans       &trans  &trans  &trans
             >;
         };
     };
